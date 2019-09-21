@@ -22,7 +22,7 @@ const HomePage: React.FC = () => {
         tests. I enjoy automating things that developers hates doing it.
       </p>
       <p>
-        →<Link to="/about">About</Link>
+        →<Link to="/about">About Me</Link>
       </p>
       <MainImage />
       <p>
