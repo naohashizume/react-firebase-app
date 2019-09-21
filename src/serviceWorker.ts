@@ -66,6 +66,7 @@ function registerValidSW(swUrl: string, config?: Config) {
   navigator.serviceWorker
     .register(swUrl)
     .then(registration => {
+      /* eslint-disable no-param-reassign */
       registration.onupdatefound = () => {
         const installingWorker = registration.installing;
         if (installingWorker == null) {
