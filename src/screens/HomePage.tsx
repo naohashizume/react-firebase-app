@@ -16,13 +16,12 @@ const AsideImageOuter = styled.figure`
 const HomePage: React.FC = () => {
   return (
     <DefaultLayout className="HomePage">
-      <h1>
-        Welcome to React & Firebase App! Automated workflow by GitHub Actions.
-      </h1>
+      <h1>Welcome to React & Firebase App!</h1>
       <p>
         Hi! My name is Nao Hashizume. I write JavaScript, Python, automation
         tests. I enjoy automating things that developers hates doing it.
       </p>
+      <p>I automated workflow with GitHub Actions.</p>
       <p>
         →<Link to="/about">About Me</Link>
       </p>
