@@ -21,7 +21,9 @@ const HomePage: React.FC = () => {
         Hi! My name is Nao Hashizume. I write JavaScript, Python, automation
         tests. I enjoy automating things that developers hates doing it.
       </p>
-      <p>I automated workflow with GitHub Actions.</p>
+      <p>
+        I automated workflow with GitHub Actions. GitHub Actions is amazinggg:)
+      </p>
       <p>
         →<Link to="/about">About Me</Link>
       </p>
